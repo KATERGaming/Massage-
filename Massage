@@ -20,7 +20,7 @@ Notification.Notify("Kater GUI", "LOADING...", "http://www.roblox.com/asset/?id=
 wait(10)
 
 Notification.Notify("Kater GUI", "Loaded!  Have Fun", "http://www.roblox.com/asset/?id=7506111107", {
-    Duration = 4,
+    Duration = 5,
 
     TitleSettings = {
         TextXAlignment = Enum.TextXAlignment.Center,
@@ -30,7 +30,7 @@ Notification.Notify("Kater GUI", "Loaded!  Have Fun", "http://www.roblox.com/ass
     GradientSettings = {
         GradientEnabled = false,
         SolidColorEnabled = true,
-        SolidColor = Color3.fromRGB(255, 21, 21),
+        SolidColor = Color3.fromRGB(85, 255, 0),
         Retract = true
     }
 })
