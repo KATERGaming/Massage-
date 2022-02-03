@@ -1,0 +1,36 @@
+local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/IrisBetterNotifications.lua"))()
+getgenv().IrisAd = true;
+
+Notification.Notify("Kater GUI", "LOADING...", "http://www.roblox.com/asset/?id=8059768488", {
+    Duration = 8,
+
+    TitleSettings = {
+        TextXAlignment = Enum.TextXAlignment.Center,
+        Font = Enum.Font.SourceSansSemibold,
+    },
+
+    GradientSettings = {
+        GradientEnabled = false,
+        SolidColorEnabled = true,
+        SolidColor = Color3.fromRGB(255, 21, 21),
+        Retract = true
+    }
+})
+
+wait(10)
+
+Notification.Notify("Kater GUI", "Loaded!  Have Fun", "http://www.roblox.com/asset/?id=7506111107", {
+    Duration = 4,
+
+    TitleSettings = {
+        TextXAlignment = Enum.TextXAlignment.Center,
+        Font = Enum.Font.SourceSansSemibold,
+    },
+
+    GradientSettings = {
+        GradientEnabled = false,
+        SolidColorEnabled = true,
+        SolidColor = Color3.fromRGB(255, 21, 21),
+        Retract = true
+    }
+})
