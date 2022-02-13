@@ -1,0 +1,18 @@
+local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/IrisBetterNotifications.lua"))()
+getgenv().IrisAd = true;
+
+Notification.Notify("KATER GUI", "COPIED TO CLIPBOARD", "http://www.roblox.com/asset/?id=8766500540", {
+    Duration = 8,
+
+    TitleSettings = {
+        TextXAlignment = Enum.TextXAlignment.Center,
+        Font = Enum.Font.SourceSansSemibold,
+    },
+
+    GradientSettings = {
+        GradientEnabled = false,
+        SolidColorEnabled = true,
+        SolidColor = Color3.fromRGB(0, 255, 213),
+        Retract = true
+    }
+})
