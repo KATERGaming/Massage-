@@ -1,7 +1,7 @@
 local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/IrisBetterNotifications.lua"))()
 getgenv().IrisAd = true;
 
-Notification.Notify("Kater GUI", "LOADING...", "http://www.roblox.com/asset/?id=8059768488", {
+Notification.Notify("Kater Hub", "LOADING...", "http://www.roblox.com/asset/?id=8059768488", {
     Duration = 8,
 
     TitleSettings = {
@@ -19,7 +19,7 @@ Notification.Notify("Kater GUI", "LOADING...", "http://www.roblox.com/asset/?id=
 
 wait(10)
 
-Notification.Notify("Kater GUI", "Loaded!  Have Fun", "http://www.roblox.com/asset/?id=7506111107", {
+Notification.Notify("Kater Hub", "Loaded!  Have Fun", "http://www.roblox.com/asset/?id=7506111107", {
     Duration = 5,
 
     TitleSettings = {
