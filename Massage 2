@@ -1,7 +1,7 @@
 local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/IrisBetterNotifications.lua"))()
 getgenv().IrisAd = true;
 
-Notification.Notify("KATER GUI", "COPIED TO CLIPBOARD", "http://www.roblox.com/asset/?id=8766500540", {
+Notification.Notify("Kater Hub", "COPIED TO CLIPBOARD", "http://www.roblox.com/asset/?id=8766500540", {
     Duration = 8,
 
     TitleSettings = {
